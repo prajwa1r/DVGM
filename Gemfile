@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.0.Z'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4.2'
 # Use Puma as the app server
@@ -51,13 +51,13 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'rdoc'
+gem 'rdoc', '>= 6.5.1.1'
 gem 'bootsnap'
 gem 'prawn'
 gem 'prawn-table'
 
-gem "rails-html-sanitizer", "= 1.4.0"
-gem "loofah", "= 2.16.0"
+gem "rails-html-sanitizer", "= 1.4.1"
+gem "loofah", "= 2.17.0"
 gem "mimemagic"
 
 gem "matrix", "~> 0.4.2"

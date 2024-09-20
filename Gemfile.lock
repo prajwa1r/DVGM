@@ -113,6 +113,7 @@ GEM
       nokogiri (~> 1)
       rake
     mini_mime (1.1.5)
+    mini_portile2 (2.8.7)
     minitest (5.20.0)
     msgpack (1.7.2)
     net-imap (0.4.1)
@@ -124,7 +125,10 @@ GEM
       timeout
     net-smtp (0.4.0)
       net-protocol
-    nio4r (2.5.9)
+    nio4r (2.7.3)
+    nokogiri (1.15.4)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     pdf-core (0.9.0)
@@ -135,7 +139,7 @@ GEM
       prawn (>= 1.3.0, < 3.0.0)
     psych (5.1.1)
       stringio
-    puma (6.4.0)
+    puma (6.4.3)
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (2.2.8)
@@ -219,6 +223,7 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
@@ -233,7 +238,7 @@ DEPENDENCIES
   mimemagic
   prawn
   prawn-table
-  puma
+  puma (>= 6.4.3)
   rails (~> 7.0.Z)
   rails-html-sanitizer (= 1.4.0)
   rdoc

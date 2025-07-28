@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.0.Z'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4.2'
 # Use Puma as the app server
@@ -26,7 +26,7 @@ gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.12.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -56,8 +56,8 @@ gem 'bootsnap'
 gem 'prawn'
 gem 'prawn-table'
 
-gem "rails-html-sanitizer", "= 1.4.0"
-gem "loofah", "= 2.16.0"
+gem "rails-html-sanitizer", "= 1.4.1"
+gem "loofah", "= 2.17.0"
 gem "mimemagic"
 
 gem "matrix", "~> 0.4.2"
